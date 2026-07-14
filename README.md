@@ -1,6 +1,6 @@
 # LIHI VITURY — Eyebrows & Lashes
 
-A stunning portfolio website for Lihi Vitury, professional eyebrow and lashes artist.
+A stunning portfolio website for Lihia Vitury, professional eyebrow and lashes artist.
 
 ## Quick Start
 
@@ -18,8 +18,8 @@ Then visit `http://localhost:8080`
 
 ## Customize
 
-- **WhatsApp**: Edit the `href` on the WhatsApp link in `index.html` — replace with `https://wa.me/972XXXXXXXXX` (Lihi's phone number with country code, no + or dashes).
-- **Instagram**: Already set to [@LV_EYEBROWS](https://instagram.com/LV_EYEBROWS)
+- **WhatsApp**: [053-2857484](https://wa.me/972532857484)
+- **Instagram**: [@lihi_vitury](https://instagram.com/lihi_vitury)
 - **Images**: All photos are in the `images/` folder
 
 ## Structure
@@ -39,4 +39,4 @@ lihi-vitury-beauty/
 - **Monogram**: LV
 - **Tagline**: Eyebrows & Lashes Artist
 - **Colors**: Cream, black, soft pink
-- **Instagram**: @LV_EYEBROWS
+- **Instagram**: @lihi_vitury
