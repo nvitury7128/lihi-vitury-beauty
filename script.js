@@ -119,4 +119,33 @@ document.addEventListener('DOMContentLoaded', () => {
     style.textContent = '@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }';
     document.head.appendChild(style);
   }
+
+  const baSlider = document.getElementById('baSlider');
+  const baRange = document.getElementById('baRange');
+  const baBefore = document.getElementById('baBefore');
+  const baBeforeImg = document.getElementById('baBeforeImg');
+  const baHandle = document.getElementById('baHandle');
+
+  if (baSlider && baRange && baBefore && baBeforeImg && baHandle) {
+    const setPosition = percent => {
+      const value = Math.min(100, Math.max(0, percent));
+      baRange.value = value;
+      baBefore.style.width = `${value}%`;
+      baHandle.style.left = `${value}%`;
+      if (baSlider.offsetWidth) {
+        baBeforeImg.style.width = `${baSlider.offsetWidth}px`;
+      }
+    };
+
+    const syncImageWidth = () => {
+      if (baSlider.offsetWidth) {
+        baBeforeImg.style.width = `${baSlider.offsetWidth}px`;
+      }
+    };
+
+    baRange.addEventListener('input', () => setPosition(Number(baRange.value)));
+    window.addEventListener('resize', syncImageWidth);
+    syncImageWidth();
+    setPosition(15);
+  }
 });
