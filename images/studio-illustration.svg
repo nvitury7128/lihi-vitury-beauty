@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none" role="img" aria-label="ÐÙÕè ÒÑÕê ÕèÙáÙÝ">
+  <rect width="400" height="480" rx="12" fill="#F7F3EE"/>
+  <path d="M80 200 Q200 120 320 200" stroke="#D4848F" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M100 195 Q200 145 300 195" stroke="#1A1714" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M115 192 Q145 175 175 188 Q200 198 225 188 Q255 175 285 192" stroke="#1A1714" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.35"/>
+  <ellipse cx="155" cy="230" rx="28" ry="18" stroke="#1A1714" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <ellipse cx="245" cy="230" rx="28" ry="18" stroke="#1A1714" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <circle cx="155" cy="230" r="6" fill="#D4848F" opacity="0.6"/>
+  <circle cx="245" cy="230" r="6" fill="#D4848F" opacity="0.6"/>
+  <path d="M140 248 Q155 290 155 320" stroke="#1A1714" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+  <path d="M150 248 Q158 285 160 315" stroke="#1A1714" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+  <path d="M160 248 Q165 290 165 320" stroke="#1A1714" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+  <path d="M235 248 Q240 290 240 320" stroke="#1A1714" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+  <path d="M245 248 Q252 285 255 315" stroke="#1A1714" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+  <path d="M260 248 Q255 290 245 320" stroke="#1A1714" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+  <text x="200" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="600" fill="#1A1714" letter-spacing="8">LV</text>
+  <text x="200" y="410" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#7A7268" letter-spacing="5">EYEBROWS &amp; LASHES</text>
+  <circle cx="200" cy="440" r="3" fill="#D4848F"/>
+</svg>
